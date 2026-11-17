@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Studio Wireless Headphones",
+    "category": "Tech",
+    "price": 2499,
+    "description": "Comfortable over-ear headphones for focused work, music and everyday listening."
+  },
+  {
+    "id": 2,
+    "name": "Everyday Canvas Backpack",
+    "category": "Accessories",
+    "price": 1899,
+    "description": "A thoughtfully designed bag with smart pockets and room for your essentials."
+  },
+  {
+    "id": 3,
+    "name": "Minimal Desk Lamp",
+    "category": "Home",
+    "price": 1499,
+    "description": "Warm, focused light for late nights, better ideas and beautiful desks."
+  },
+  {
+    "id": 4,
+    "name": "Essential Ceramic Mug",
+    "category": "Home",
+    "price": 699,
+    "description": "A reassuringly solid mug that makes every coffee moment feel special."
+  },
+  {
+    "id": 5,
+    "name": "Classic Analog Watch",
+    "category": "Accessories",
+    "price": 3299,
+    "description": "A refined everyday watch with a clean dial and timeless detailing."
+  },
+  {
+    "id": 6,
+    "name": "Pocket Bluetooth Speaker",
+    "category": "Tech",
+    "price": 2199,
+    "description": "Rich, portable sound in a playful compact design."
+  },
+  {
+    "id": 7,
+    "name": "Urban Running Sneakers",
+    "category": "Lifestyle",
+    "price": 2799,
+    "description": "Lightweight everyday sneakers made for comfort and all-day movement."
+  },
+  {
+    "id": 8,
+    "name": "Insulated Steel Bottle",
+    "category": "Lifestyle",
+    "price": 999,
+    "description": "Keeps drinks cool, cuts disposable plastic and travels everywhere."
+  },
+  {
+    "id": 9,
+    "name": "Compact Digital Camera",
+    "category": "Tech",
+    "price": 6999,
+    "description": "Capture everyday adventures with a compact, easy-to-use camera."
+  },
+  {
+    "id": 10,
+    "name": "Soft Knit Throw",
+    "category": "Home",
+    "price": 1699,
+    "description": "Textured comfort for quiet evenings and slow Sundays."
+  },
+  {
+    "id": 11,
+    "name": "Retro Sunglasses",
+    "category": "Accessories",
+    "price": 1199,
+    "description": "Lightweight frames with a timeless silhouette and everyday attitude."
+  },
+  {
+    "id": 12,
+    "name": "Notebook & Pen Set",
+    "category": "Lifestyle",
+    "price": 449,
+    "description": "A minimal paper-and-pen kit for notes, lists and new ideas."
+  }
+]

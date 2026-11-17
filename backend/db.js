@@ -1,0 +1,11 @@
+const path = require('path');
+const fs = require('fs');
+const Database = require('better-sqlite3');
+const dbPath = process.env.DB_PATH || path.join(__dirname, 'products.db');
+const isNewDatabase = !fs.existsSync(dbPath);
+const db = new Database(dbPath);
+db.pragma('journal_mode = WAL');
+db.exec(fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf8'));
+const count = db.prepare('SELECT COUNT(*) AS total FROM products').get().total;
+if (isNewDatabase && count === 0) db.exec(fs.readFileSync(path.join(__dirname, 'seed.sql'), 'utf8'));
+module.exports = db;

@@ -1,0 +1,17 @@
+NORTHSTAR — RUN WITH NPM
+
+1. Open Northstar-Recovery in VS Code.
+2. Terminal 1:
+   cd backend
+   npm install
+   npm run setup-admin
+   npm run dev
+3. Terminal 2 (from project root):
+   cd frontend
+   npm install
+   npm run dev
+4. Open http://localhost:5173
+5. Click Admin dashboard and sign in using your chosen password.
+
+The old OPEN-WEBSITE.html is not the new full-stack version.
+Read README.md for privacy notes and troubleshooting.

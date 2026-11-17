@@ -1,0 +1,16 @@
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/products.db
+backend/products.db-shm
+backend/products.db-wal
+backend/test-products.db*
+.DS_Store
+Thumbs.db
+
+backend/admin-credentials.json
+backend/analytics-secret.key
+backend/generated-theme.css
+backend/node_modules/
